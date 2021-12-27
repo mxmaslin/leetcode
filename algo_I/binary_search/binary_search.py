@@ -10,5 +10,5 @@ class Solution:
             elif target < nums[middle]:
                 right = middle
                 middle -= max((right - left) // 2, 1)
-            elif target == nums[middle]:
+            else:
                 return middle
